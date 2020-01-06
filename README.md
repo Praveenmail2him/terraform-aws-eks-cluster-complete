@@ -63,7 +63,7 @@ You can use this module from the Terraform registry as a remote source:
 
 ```terraform
 module "eks" {
-  source  = "WesleyCharlesBlake/eks/aws"
+  source  = "./eks/aws"
 
   aws-region          = "us-east-1"
   availability-zones  = ["us-east-1a", "us-east-1b", "us-east-1c"]
@@ -99,7 +99,7 @@ output "config-map" {
 
 ```terraform
 module "eks" {
-  source  = "WesleyCharlesBlake/eks/aws"
+  source  = "./eks/aws"
 
   aws-region          = var.aws-region
   availability-zones  = var.availability-zones
