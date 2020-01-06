@@ -45,13 +45,13 @@ You can configure you config with the following input variables:
 | `eks-cw-logging`          | EKS Logging Components             | `["api", "audit", "authenticator", "controllerManager", "scheduler"]`                                                                                                                                                                                                                                                                                                                                            |
 | `ec2-key-public-key`      | EC2 Key Pair for bastion and nodes | `ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3F6tyPEFEzV0LX3X8BsXdMsQz1x2cEikKDEY0aIj41qgxMCP/iteneqXSIFZBp5vizPvaoIR3Um9xK7PGoW8giupGn+EPuxIA4cDM4vzOqOkiMPhz5XK0whEjkVzTo4+S0puvDZuwIsdiW9mxhJc7tgBNL0cYlWSYVkz4G/fslNfRPW5mYAM49f4fhtxPb5ok4Q2Lg9dPKVHO/Bgeu5woMc7RY0p1ej6D4CKFE6lymSDJpW0YHX/wqE9+cfEauh7xZcG0q9t2ta6F6fmX0agvpFyZo8aFbXeUBr7osSCJNgvavWbM/06niWrOvYX2xwWdhXmXSrbX8ZbabVohBK41 email@example.com` |
 
-> You can create a file called terraform.tfvars or copy [variables.tf](https://github.com/WesleyCharlesBlake/terraform-aws-eks/blob/master/variables.tf) into the project root, if you would like to over-ride the defaults.
+> You can create a file called terraform.tfvars or copy [variables.tf](https://github.com/Praveenmail2him/terraform-aws-eks-cluster-complete/blob/master/variables.tf) into the project root, if you would like to over-ride the defaults.
 
 ## How to use this example
 
 ```bash
-git clone git@github.com:WesleyCharlesBlake/terraform-aws-eks.git
-cd terraform-aws-eks
+git clone https://github.com/Praveenmail2him/terraform-aws-eks-cluster-complete.git
+cd terraform-aws-eks-cluster-complete
 ```
 
 ## Remote Terraform Module
